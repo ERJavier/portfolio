@@ -16,10 +16,8 @@ export default function Home() {
 
       </Head>
       <nav>
+        <a href='#!'>Logo</a>
         <ul>
-          <li>
-            <a>Logo</a>
-          </li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>
