@@ -41,9 +41,10 @@
 
 .title {
   font-family: 'Montserrat', sans-serif;
+  text-transform:capitalize;
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
@@ -52,6 +53,7 @@
 }
 
 .description {
+  font-family: 'Courier New', Courier, monospace;
   margin: 1.2em ;
   font-size: 1.5rem;
 }
@@ -61,7 +63,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  font-family: Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
