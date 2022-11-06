@@ -54,6 +54,7 @@ h3 {
 
 h2 {
   font-size: 1.4em;
+  color: aqua;  
 }
 
 @media only screen and (max-width: 666px)  {
