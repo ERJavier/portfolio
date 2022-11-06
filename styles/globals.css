@@ -34,6 +34,7 @@ nav > a {
   display: block;
   float: left;
   margin-left: 2em;
+  margin-top: 0.2em;
   font-size: 2em;
   color: whitesmoke;
   padding: 0.3em;
