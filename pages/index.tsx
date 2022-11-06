@@ -9,7 +9,7 @@ export default function Home() {
         <meta charSet='UTF-8' />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="keywords" content="javascript, developer, html, css, react, nodejs" />
-        <meta name="description" content="Personal portfolio | Javier Cepeda | erjavierc@gmail.com" />
+        <meta name="description" content="Personal Portfolio | Javier Cepeda | erjavierc@gmail.com" />
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 
         <link rel="icon" href="/favicon.ico" />
@@ -25,19 +25,29 @@ export default function Home() {
 
       <main className={styles.main}>
 
-        <h1 className={styles.title}>
-          Welcome to Next.js!
-        </h1>
+        <section>
+          <h1 className={styles.title}>
+            Welcome to my personal portfolio!
+          </h1>
+          <figure>
+            <img src='../public/vercel.svg'/>
+          </figure>
+        </section>
 
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
+        <h3>Take a look to my projects</h3>
+        <h3>Contact Me!</h3>
+
       </main>
 
       <footer className={styles.footer}>
+        <section>
 
+        </section>
       </footer>
     </div>
   )
