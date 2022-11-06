@@ -39,11 +39,13 @@ export default function Home() {
         <h3><a href="#!">Take a look to my projects</a></h3>
         <h3><a href="#!">Contact Me!</a></h3>
 
+        <h2>Technologies I Use</h2>
+
+
       </main>
 
       <footer className={styles.footer}>
         <section>
-
         </section>
       </footer>
     </div>

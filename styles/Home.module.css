@@ -13,11 +13,8 @@
 }
 
 .footer {
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 1em ;
+  position: relative;
+  margin: 1em;
   border-top: 1px solid whitesmoke;
   justify-content: center;
   align-items: center;
