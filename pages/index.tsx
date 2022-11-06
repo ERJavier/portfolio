@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import nodeSVG from '../images/nodejs.svg'
 
 export default function Home() {
   return (
@@ -44,7 +45,7 @@ export default function Home() {
 
         <div>
           <img src="../images/nextjs.svg" alt="next.js logo" />
-          <img src="../images/nodejs.svg" alt="nodejs logo" />
+          <img src={nodeSVG} alt="nodejs logo" />
 
         </div>
 
