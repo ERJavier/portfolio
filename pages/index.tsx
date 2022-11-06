@@ -32,8 +32,8 @@ export default function Home() {
         </section>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          My name is
+          <code className={styles.code}>Javier Cepeda</code>
         </p>
 
         <h3><a href="#!">Take a look to my projects</a></h3>
