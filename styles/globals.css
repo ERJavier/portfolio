@@ -45,6 +45,13 @@ ul > li {
   color: whitesmoke;
 }
 
+h3 {
+  color: aqua;
+  margin: 0.2em;
+  padding: 0.2em;
+  border: solid 0.2em;
+}
+
 @media only screen and (max-width: 666px)  {
   nav > ul > li{
     display: none;

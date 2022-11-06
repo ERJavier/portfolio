@@ -29,9 +29,6 @@ export default function Home() {
           <h1 className={styles.title}>
             Welcome to my personal portfolio!
           </h1>
-          <figure>
-            <img src='../public/vercel.svg'/>
-          </figure>
         </section>
 
         <p className={styles.description}>
@@ -39,8 +36,8 @@ export default function Home() {
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
-        <h3>Take a look to my projects</h3>
-        <h3>Contact Me!</h3>
+        <h3><a href="#!">Take a look to my projects</a></h3>
+        <h3><a href="#!">Contact Me!</a></h3>
 
       </main>
 
