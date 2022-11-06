@@ -43,7 +43,7 @@ export default function Home() {
         <h2>Technologies I Use</h2>
 
         <div>
-          <img src="./images/nextjs.svg" alt="next.js logo" />
+          <img src="../images/nextjs.svg" alt="next.js logo" />
 
         </div>
 
