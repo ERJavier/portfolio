@@ -18,8 +18,8 @@ export default function Home() {
       <nav>
         <a href='#!'>Logo</a>
         <ul>
-          <li>Projects</li>
           <li>Contact</li>
+          <li>Projects</li>
         </ul>
       </nav>
 

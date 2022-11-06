@@ -31,18 +31,25 @@ nav > ul {
   display: inline;  
 }
 nav > a {
-  display: inline-block;
+  display: block;
+  float: left;
+  margin-left: 2em;
   font-size: 2em;
   color: whitesmoke;
   padding: 0.3em;
 }
-nav > ul > li {
-  display: inline-block;
-  text-align: right;
+ul > li {
+  display: block;
+  float: right;
   padding: 0.3em;
   color: whitesmoke;
 }
 
+@media only screen and (max-width: 666px)  {
+  nav > ul > li{
+    display: none;
+  }
+}
 
 
 
