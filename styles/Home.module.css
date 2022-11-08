@@ -108,6 +108,7 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  background-image: url('') ;
 }
 
 @media (max-width: 600px) {
@@ -129,3 +130,5 @@
     filter: invert(1);
   }
 }
+
+
