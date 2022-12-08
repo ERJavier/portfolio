@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import porfilePic from '../images/id.jpg'
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
       </nav>
 
       <main className={styles.main}>
+        
+        <figure>
+          <Image src={porfilePic} alt="image of javier cepeda" width={200} height={200} />
+        </figure>
 
         <section>
           <h1 className={styles.title}>
