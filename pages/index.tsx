@@ -18,7 +18,7 @@ export default function Home() {
 
       </Head>
       <nav>
-        <a href='#!'>Logo</a>
+        <a href='#!'>Web Developer</a>
         <ul>
           <li>Contact</li>
           <li>Projects</li>
@@ -28,7 +28,7 @@ export default function Home() {
       <main className={styles.main}>
         
         <figure>
-          <Image src={porfilePic} alt="image of javier cepeda" width={200} height={200} />
+          <Image src={porfilePic} alt="image of javier cepeda" width={250} height={250} />
         </figure>
 
         <section>

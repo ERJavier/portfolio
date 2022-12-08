@@ -37,7 +37,7 @@ nav > ul {
 nav > a {
   display: block;
   float: left;
-  margin-left: 2em;
+  margin-left: 1em;
   margin-top: 0.2em;
   font-size: 2em;
   color: whitesmoke;
@@ -45,7 +45,8 @@ nav > a {
 }
 ul > li {
   display: block;
-  margin-top: 1em;
+  font-size: 2em;
+  margin-top: 0.2em;
   float: right;
   padding: 0.3em;
   color: whitesmoke;
