@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import porfilePic from '../images/id.jpg'
+import Navbar from './api/navbar'
 
 export default function Home() {
   return (
@@ -17,13 +18,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
-      <nav>
-        <a href='#!'>Web Developer</a>
-        <ul>
-          <li>Contact</li>
-          <li>Projects</li>
-        </ul>
-      </nav>
+
+      <Navbar />
 
       <main className={styles.main}>
         
