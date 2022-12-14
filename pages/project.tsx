@@ -5,7 +5,9 @@ function Project() {
   return (
     <div>
       <Navbar />
-      <h2>Hola Mundo</h2>
+      <main>
+        
+      </main>
     </div>
   )
 }
